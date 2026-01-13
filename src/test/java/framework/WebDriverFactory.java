@@ -66,6 +66,10 @@ public class WebDriverFactory {
 		return driver;
 
 }
-	public static RemoteWebDriver 
+	public static WebDriver RemoteWebDriver() {
+	WebDriver driver= null;
+	
+		return driver;
+	}
 	
 }
