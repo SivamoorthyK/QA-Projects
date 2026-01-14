@@ -38,12 +38,13 @@
     </dependency>
 
     <!-- TestNG (test framework) -->
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>${testng.version}</version>
-      <scope>test</scope>
-    </dependency>
+    <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>${testng.version}</version>
+    <scope>test</scope>
+</dependency>
 
     <!-- Assertions & logging (optional but recommended) -->
     <dependency>
@@ -86,7 +87,7 @@
             <include>**/*Test.java</include>
           </includes>
           <properties>
-            <property>
+            <property>nnn
               <name>surefire.testng.parallel</name>
               <value>classes</value>
             </property>
